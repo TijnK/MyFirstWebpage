@@ -1,0 +1,18 @@
+  h1 {
+    color:white;
+    margin: auto;
+    background-color: #00b36c;
+    padding:50px;
+    font-family: fantasy,sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+  table{
+    border:2px;
+    border-collapse:collapse;
+  }
+
+  tr,td{
+    border:1px;
+  }
