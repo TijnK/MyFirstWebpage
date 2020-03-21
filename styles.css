@@ -8,11 +8,28 @@
     font-weight: bold;
     text-align: center;
   }
-  table{
-    border:2px;
+  table, th{
+    border:2px solid;
     border-collapse:collapse;
+    font-family: fantasy,sans-serif;
+    font-size: 25px;
+    background-color: #66cc99;
+    color:white;
+    text-align: center;
   }
 
   tr,td{
-    border:1px;
+    border:1px solid;
+    width: 50px;
+    padding: 50px;
+    text-align:  center;
+  }
+  img{
+    height: 500px;
+    width: rgba(255, 0, 0, 0.5);
+  }
+  td:hover {
+    color: white;
+    background-color: #9fdfbf;
+    cursor: pointer;
   }
